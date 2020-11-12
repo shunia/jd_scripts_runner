@@ -1,3 +1,22 @@
+// ==UserScript==
+// @name         jd_scripts_runner
+// @namespace    http://qfhuang.pw/
+// @version      0.4
+// @description  Run jd_scripts in your browser
+// @author       shunia
+// @grant        GM_getValue
+// @grant        GM_setValue
+// @grant        GM_xmlhttpRequest
+// @require      https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.18.2/babel.js
+// @require      https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.16.0/polyfill.js
+// @connect      github.com
+// @connect      raw.githubusercontent.com
+// @connect      jd.com
+// @connect      jdfcloud.com
+// @connect      turinglabs.net
+// @match        *://*/*
+// ==/UserScript==
+
 (function () {
   const cookies = [
     "pt_pin=shunia;pt_key=AAJfqlIGADANJuQiGcGVoJxkxLRXgVEB4sqEVvXBFYV7IVa46qifOr10l_6ZVwjvHaWiOufIlTo;",
